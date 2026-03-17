@@ -1,0 +1,14 @@
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\bin\Debug\net8.0\C#_Logic_Exercises.exe
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\bin\Debug\net8.0\C#_Logic_Exercises.deps.json
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\bin\Debug\net8.0\C#_Logic_Exercises.runtimeconfig.json
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\bin\Debug\net8.0\C#_Logic_Exercises.dll
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\bin\Debug\net8.0\C#_Logic_Exercises.pdb
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\C#_Logic_Exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\C#_Logic_Exercises.AssemblyInfoInputs.cache
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\C#_Logic_Exercises.AssemblyInfo.cs
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\C#_Logic_Exercises.csproj.CoreCompileInputs.cache
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\C#_Logic_Exercises.dll
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\refint\C#_Logic_Exercises.dll
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\C#_Logic_Exercises.pdb
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\C#_Logic_Exercises.genruntimeconfig.cache
+C:\Users\Mozinhos\Desktop\Codes Augusto\C#\C#_Logic_Exercises\obj\Debug\net8.0\ref\C#_Logic_Exercises.dll
