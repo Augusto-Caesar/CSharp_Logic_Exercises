@@ -7,5 +7,7 @@
 
 //NumberMethods.WhileLoop(num2);
 //NumberMethods.ForLoop(num2);
-Strings.StringMethods("Murillo");
-NumberMethods.NumArray(5);
+//Strings.StringMethods("Murillo");
+//NumberMethods.NumArray(5);
+LinqMethods.LinqNumbers();
+LinqMethods.LinqStrings();

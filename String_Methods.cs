@@ -35,15 +35,18 @@ public class Strings
     {   /*
         System.Console.WriteLine(word.ToUpper());
         System.Console.WriteLine(word.ToLower());
-        */
+        
         var names = new List<string>{"Taynara", "Augusto", "Ayla"};
         names.Add(word);
+        names.Sort();
+        
         foreach (var name in names)//you can also use an interval like (name in names[2..4])
         {
             System.Console.WriteLine($"Family Member: {name}");
             //System.Console.WriteLine(names[^1]);//this operand [^number] will get a number from the back of the list
             //if it's [^3] it's the third from the back
         }
+        */
     }
 
 }
