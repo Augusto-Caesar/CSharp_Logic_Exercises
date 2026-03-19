@@ -23,15 +23,16 @@ public class LinqMethods
 
     public static void LinqStrings()
     {
-        List<string> cars = ["Voyage", "March", "Celta", "Sentra", "Civic", "Corolla"];
-        IEnumerable<string> carsQuery =
+        List<string> cars = ["Voyage", "March", "Celta", "Sentra", "Civic", "Corolla", "Chevette", "Pampa", "Prisma"];
+        /*IEnumerable<string> carsQuery =
             from car in cars
             where car.StartsWith("C")
             orderby car ascending
             select $"This is the car you want: {car}";
-
+        */
+        var carsQuery = cars.Where(car => car.StartsWith("C")).OrderBy(car => car);
         List<string> carsStartsWithC = carsQuery.ToList();//a list of cars that only starts with C
-        foreach (var i in carsQuery)
+        foreach (var i in carsStartsWithC)
         {
            System.Console.WriteLine(i);
         }
