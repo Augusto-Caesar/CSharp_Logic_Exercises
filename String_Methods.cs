@@ -27,6 +27,10 @@ System.Console.WriteLine(thirdLanguage.ToLower());//same as above, but lowercase
 System.Console.WriteLine(programmingLanguages.Length);//simply outputs the length of the variable
 System.Console.WriteLine(firstLanguage.StartsWith("J"));//checks the beginning of a string to see if the start matches the parameter
 System.Console.WriteLine(firstLanguage.EndsWith("r"));//checks the End of a string to see if the end matches the parameter
+
+A verbatim string literal will keep all whitespace and characters without the need to escape the backslash. 
+To create a verbatim string, use the @ directive before the literal string.
+Console.Write(@"C:\source\repos\     this is my repository folder!"); //this will output exactly what was typed, without any errors.
 */
 
 public class Strings
