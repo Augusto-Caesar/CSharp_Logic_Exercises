@@ -1,6 +1,5 @@
 public class LinqMethods
-{
-
+{   
     public static void LinqNumbers()
     {
         List<int> scores = [97, 92, 81, 60, 65];
@@ -20,7 +19,6 @@ public class LinqMethods
            System.Console.WriteLine(i);
         }
     }
-
     public static void LinqStrings()
     {
         List<string> cars = ["Voyage", "March", "Celta", "Sentra", "Civic", "Corolla", "Chevette", "Pampa", "Prisma"];
@@ -37,6 +35,4 @@ public class LinqMethods
            System.Console.WriteLine(i);
         }
     }
-    
-    
 }
