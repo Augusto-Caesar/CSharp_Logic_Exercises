@@ -11,6 +11,7 @@
 //NumberMethods.NumArray(5);
 //LinqMethods.LinqNumbers();
 //LinqMethods.LinqStrings();
-Person.SetPerson("Jane", "Doe", new DateOnly(1970, 10, 10)); 
-Person.SetPersonWithPets("John", "Doe", new DateOnly(1960, 1, 1), "Cat");
-Person.SetPersonWithPets("Mark", "Doe", new DateOnly(1980, 3, 3), "Cat"); 
+// Person.SetPerson("Jane", "Doe", new DateOnly(1970, 10, 10)); 
+// Person.SetPersonWithPets("John", "Doe", new DateOnly(1960, 1, 1), "Cat");
+// Person.SetPersonWithPets("Mark", "Doe", new DateOnly(1980, 3, 3), "Cat"); 
+NumberMethods.DiceRoll();

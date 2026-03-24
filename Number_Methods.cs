@@ -61,11 +61,17 @@ public class NumberMethods
         {
             System.Console.WriteLine($"The salary is: {salary:0.000}");
         }
-    }
     /*When formatting numbers to output, you can add several types of formatting such as:
     {number:F3} will set the number to a fixed 3 decimals, regardless of the original value
     {number:N3} will add 3 decimals but also a period to indicate it's in the thousands, so 1250.0 becomes 1.250,000
     {number:0.000} the number will be sent in the pre-formatted setting, regardless of the original value. So 1 become 1.000
     */
-}
+    }
 
+    public static void DiceRoll(int num = 0)
+    {
+        Random dice = new();
+        int roll = dice.Next(1, 7);
+        System.Console.WriteLine(roll);
+    }
+}
