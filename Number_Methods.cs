@@ -72,6 +72,17 @@ public class NumberMethods
     {
         Random dice = new();
         int roll = dice.Next(1, 7);
-        System.Console.WriteLine(roll);
+        System.Console.WriteLine("Dice: " + roll);
     }
+
+    public static void LargerValue(int num = 0)
+    {
+        int firstNum = 500;
+        int secondNum = 600;
+        int largerValue = Math.Max(firstNum, secondNum);
+        int smallerValue = Math.Min(firstNum, secondNum);
+        System.Console.WriteLine("Smaller: " + smallerValue);
+        System.Console.WriteLine("Larger: " + largerValue);
+    }
+
 }

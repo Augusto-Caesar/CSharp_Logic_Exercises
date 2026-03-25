@@ -15,3 +15,4 @@
 // Person.SetPersonWithPets("John", "Doe", new DateOnly(1960, 1, 1), "Cat");
 // Person.SetPersonWithPets("Mark", "Doe", new DateOnly(1980, 3, 3), "Cat"); 
 NumberMethods.DiceRoll();
+NumberMethods.LargerValue();
