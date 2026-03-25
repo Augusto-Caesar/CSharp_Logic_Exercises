@@ -11,27 +11,48 @@ public class ConditionalMethods
 
         if((dice1 == dice2) || (dice2 == dice3) || (dice1 == dice3))
         {
-            bonus += 2;
-        }else if((dice1 == dice2) && (dice1 == dice3))
-        {
-            bonus += 6;
+            if((dice1 == dice2) && (dice1 == dice3)){
+                bonus += 6;
+            }
+            else{
+                bonus += 2;
+            }
         }
         int total = dice1 + dice2 + dice3 + bonus;
 
-        if(total < win)
-        {   
-            System.Console.WriteLine($"You lost... with {total} points.");
-            System.Console.WriteLine($"First Dice: {dice1}");
-            System.Console.WriteLine($"Second Dice: {dice2}");
-            System.Console.WriteLine($"Third Dice: {dice3}");
-            System.Console.WriteLine($"Bonus for equal dices: {bonus}");
-        }else if(total >= win)
+        if(total >= win)
         {
             System.Console.WriteLine($"You WON! With {total} points.");
-            System.Console.WriteLine($"First Dice: {dice1}");
-            System.Console.WriteLine($"Second Dice: {dice2}");
-            System.Console.WriteLine($"Third Dice: {dice3}");
-            System.Console.WriteLine($"Bonus for equal dices: {bonus}");
+            System.Console.WriteLine($"First Dice: {dice1}\nSecond Dice: {dice2}\nThird Dice: {dice3}\nBonus for equal dices: {bonus}");
+        }else
+        {
+            System.Console.WriteLine($"You lost... with {total} points.");
+            System.Console.WriteLine($"First Dice: {dice1}\nSecond Dice: {dice2}\nThird Dice: {dice3}\nBonus for equal dices: {bonus}");
+        }
+    }
+
+    public static void MockSubscriptionExpire()
+    {
+        Random expirationDate = new Random();
+        int daysUntilExpiration = expirationDate.Next(12);
+        int discountPercentage = 0;
+
+        if(daysUntilExpiration <= 10){
+            System.Console.WriteLine($"Your subscription will expire in {expirationDate} days! Renew now!");
+        }else if(daysUntilExpiration <= 5){
+            System.Console.WriteLine($"Your subscription will expire in {expirationDate} days!");
+            discountPercentage = 10;
+        }else if(daysUntilExpiration == 1){
+            System.Console.WriteLine("Your subscription will expire in a day!");
+            discountPercentage = 20;
+        }
+        else if(daysUntilExpiration > 10){}
+        else{
+            System.Console.WriteLine("Your subscription has expired.");
+        }
+        if(discountPercentage > 0)
+        {
+            System.Console.WriteLine($"Renew now and save {discountPercentage}%!");
         }
     }
 }
