@@ -55,4 +55,21 @@ public class ConditionalMethods
             System.Console.WriteLine($"Renew now and save {discountPercentage}%!");
         }
     }
+
+    public static void MockFraudulentOrders()
+    {
+        string[] fraudulentOrderIDs = ["B123", "B456", "C789", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"];
+        //the array can also be initialized withou values, as in
+        //string[] frauds = new string[3];
+        fraudulentOrderIDs[2] = "F000";//reassigning
+        int numID = 0;
+        foreach(string ID in fraudulentOrderIDs)
+        {
+            if (fraudulentOrderIDs[numID].StartsWith('B'))
+            {
+                System.Console.WriteLine($"Fraudulent order detected at position: {numID} - with ID = {ID}");
+            }
+            numID++;
+        }
+    }
 }
