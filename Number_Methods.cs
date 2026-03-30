@@ -85,4 +85,11 @@ public class NumberMethods
         System.Console.WriteLine("Larger: " + largerValue);
     }
 
+    public static void CoinFlip()
+    {
+        Random coin = new();
+        int flip = coin.Next(0,2);
+        System.Console.WriteLine((flip == 0) ? "heads" : "tails");
+    }
+
 }

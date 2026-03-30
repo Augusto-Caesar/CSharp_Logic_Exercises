@@ -16,6 +16,8 @@
 // Person.SetPersonWithPets("Mark", "Doe", new DateOnly(1980, 3, 3), "Cat"); 
 // NumberMethods.DiceRoll();
 // NumberMethods.LargerValue);
-ConditionalMethods.IfElseGame();
+//ConditionalMethods.IfElseGame();
 //ConditionalMethods.MockFraudulentOrders();
-ConditionalMethods.GradeReport();
+//ConditionalMethods.GradeReport();
+//NumberMethods.CoinFlip();
+ConditionalMethods.MockAccessPermission();

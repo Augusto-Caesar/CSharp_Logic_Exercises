@@ -1,3 +1,5 @@
+using System.Reflection.Metadata;
+
 public class ConditionalMethods
 {
     public static void IfElseGame()
@@ -168,5 +170,16 @@ public class ConditionalMethods
 
         Console.WriteLine("Press the Enter key to continue");
         Console.ReadLine();
+    }
+
+    public static void MockAccessPermission()
+    {
+        string permission = "User";
+        int level = 56;
+        System.Console.WriteLine(((permission.Contains("Admin") || permission.Contains("Manager")) && level > 55) ? 
+        "Welcome, Super Admin user" : ((permission.Contains("Admin") || permission.Contains("Manager")) && level >= 55) 
+        ? "Welcome, Admin user" : (permission.Contains("Manager") && level >= 20) ? "Contact an Admin for access." 
+        : (permission.Contains("Manager") && level < 20) ? "You lack sufficient access privileges." 
+        : "You lack sufficient access privileges.");
     }
 }
